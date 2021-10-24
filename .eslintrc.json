@@ -61,7 +61,9 @@
 
     //other rules
     "camelcase": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "no-unused-expressions": ["error", { "allowTernary": true }]
   },
   "settings": {
     "import/resolver": {
