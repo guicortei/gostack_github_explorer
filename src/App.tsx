@@ -6,7 +6,7 @@ import Routes from './routes';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="gostack_github_explorer">
         <Routes />
       </BrowserRouter>
       <GlobalStyle />
